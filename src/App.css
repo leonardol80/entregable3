@@ -1,0 +1,138 @@
+:root{
+  --color_blaco: #ffffff;
+  --color_titleOne: #062226;
+  --color_fondo_card: #05292E;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* max-width:1250px; */
+  height: 100vh;
+  background-color: var(--color_fondo_card);
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  list-style:none;
+}
+
+.contenedorUno{
+  width:1250px;
+  height: 200px;
+  background-image: url(../public/head\ r\ and\ M.png);
+  display: flex;
+  justify-content: center;
+}
+
+.formulario{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_button{
+    color: var(--color_blanco);
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.location-info{
+  display: flex;
+  justify-content: center;
+}
+
+.titleOne{
+width: 80%;
+background-color: var(--color_titleOne);
+color: var(--color_blaco);
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+padding: 5px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.card{
+  /* width: 100%; */
+  /* height: 100vh; */
+  background-color: var(--color_fondo_card);
+  display: flex; 
+  justify-content: center; 
+  padding: 10px;
+  flex-wrap: wrap;
+  display: inline-block;
+  margin-left: 30px;
+  }
+
+  .font-color{
+    color:var(--color_blaco)
+  }
+
+  /* .circle{
+    width: 12px;
+    height: 12px;
+    border: solid 1px white;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.estado{
+  display: flex;
+  margintop:-280px
+  
+} */
+
+.circle{
+  width: 12px;
+  height: 12px;
+  border: solid 1px white;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+.estado{
+  display: flex;
+  width: 90px;
+  height: 30px;
+  border: solid 1px white;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10px;
+ top: -290px;
+ position: relative;
+background-color: #062226;
+}
+
+  @media(max-width:600px){
+    .card{
+      width: 100%;
+      background-color: var(--color_fondo_card);
+      display: flex; 
+      justify-content: center; 
+      padding: 10px;
+      flex-wrap: wrap;
+      }
+  }
+
+  @media(max-width:1000px){
+    .card{
+      width: 100%;
+      background-color: var(--color_fondo_card);
+      display: flex; 
+      justify-content: center; 
+      padding: 10px;
+      flex-wrap: wrap;
+      }
+  }
